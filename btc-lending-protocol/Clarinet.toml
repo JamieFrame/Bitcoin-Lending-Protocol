@@ -1,0 +1,21 @@
+[project]
+name = "btc-lending-protocol"
+description = "Bitcoin-USDT lending protocol with descending auction mechanism"
+authors = []
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+
+[contracts.marketplace-contract-v1]
+path = "contracts/marketplace-contract-v1.clar"
+clarity_version = 1
+epoch = 2.5
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
