@@ -22,7 +22,7 @@ import { c32address, c32addressDecode } from 'c32check';
 const CONFIG = {
   CONTRACT_ADDRESS: 'ST2BKV3K4DQQS6GMFJYT1MY4TQS228190RCSHAGN3',
   LOAN_PROTOCOL: 'loan-protocol-v35',  // UPDATED TO V27 - USES ALLOW MODE!
-  MARKETPLACE: 'marketplace-contract-v2',  // NEW: Marketplace contract for trading positions
+  MARKETPLACE: 'marketplace-contract-v1',  // NEW: Marketplace contract for trading positions
   MOCK_SBTC: 'mock-sbtc-v21',          // FIXED: Uses contract-caller
   MOCK_USDT: 'mock-usdt-v21',          // FIXED: Uses contract-caller
   NETWORK: new StacksTestnet()
